@@ -1,0 +1,28 @@
+WORLDBOUND — WINDOWS EDITION 1.0
+
+1. Right-click the downloaded ZIP and choose Extract All.
+2. Open the extracted Worldbound-Windows folder.
+3. Double-click Worldbound.exe. Keep the other files beside it.
+4. Sign in with your own account that has access to the game.
+
+Requires Windows 10/11 x64 and internet. No Node.js install needed.
+F11 toggles fullscreen. Ctrl+R reconnects to the game.
+
+FRIEND ACCESS
+The hosted game is private. Its owner must grant your email access
+before you can play. This download does not bypass that requirement.
+If your sign-in provider refuses an embedded app, use Game > Open
+in browser. Browser sign-in does not sign the desktop app in.
+
+UPDATES AND DATA
+Game changes appear automatically from the live website. The desktop
+runtime has no auto-updater; get a newer package when one is available.
+Each Windows account has its own saved session. The desktop player
+profile may differ from your existing browser profile. Street View
+uses the game owner's Google Maps account and usage limits.
+
+This first build has not been run on Windows in the build environment.
+The package is not publisher-signed; Windows may show an unknown
+publisher warning. No certificate or security settings need changing.
+
+Website: https://worldbound-explorer.grantexec-0223.chatgpt.site
