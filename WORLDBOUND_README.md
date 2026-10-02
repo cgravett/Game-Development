@@ -1,5 +1,18 @@
 # Worldbound — project handoff for the next LLM
 
+## October 1, 2026 access and packaging update
+
+The user requested that anyone with the downloaded files can play without a
+ChatGPT login. The existing Site access was changed from custom to public using
+Sites (access revision 2). An anonymous HTTP request returned 200 with Worldbound
+content and no login redirect. No bypass token or owner session is distributed.
+The desktop wrapper is version 1.0.1, with current launch instructions and only
+the game host trusted for in-app navigation. Run scripts/package-windows.ps1 to
+build and verify release/Worldbound-Windows.zip from the bundled Windows runtime.
+Internet and the hosted backend are still required. This supersedes the private
+access and outstanding friend invitation statements in the historical handoff
+below. Full Street View gameplay has not been re-tested in this update.
+
 Last verified: September 30, 2026, America/New_York (October 1 UTC).
 
 ## 1. What this project is

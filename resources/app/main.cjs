@@ -2,7 +2,7 @@
 const { app, BrowserWindow, Menu, shell, dialog, session } = require('electron');
 const path = require('node:path');
 const SITE = 'https://worldbound-explorer.grantexec-0223.chatgpt.site';
-const trustedHosts = new Set([new URL(SITE).hostname, 'chatgpt.com', 'chat.openai.com', 'auth.openai.com', 'auth0.openai.com', 'accounts.google.com', 'login.microsoftonline.com', 'login.live.com', 'appleid.apple.com']);
+const trustedHosts = new Set([new URL(SITE).hostname]);
 const isTrusted = value => { try { const u = new URL(value); return u.protocol === 'https:' && trustedHosts.has(u.hostname); } catch { return false; } };
 let main;
 app.setName('Worldbound');
@@ -49,7 +49,7 @@ else {
     Menu.setApplicationMenu(Menu.buildFromTemplate([
       {label:'Game',submenu:[{label:'Open Worldbound / Retry connection',accelerator:'CmdOrCtrl+R',click:loadGame},{label:'Open in browser',click:()=>shell.openExternal(SITE)},{type:'separator'},{role:'quit'}]},
       {label:'View',submenu:[{role:'togglefullscreen',accelerator:'F11'},{role:'resetZoom'},{role:'zoomIn'},{role:'zoomOut'}]},
-      {label:'Help',submenu:[{label:'About Worldbound',click:()=>dialog.showMessageBox({title:'Worldbound',message:'Worldbound for Windows',detail:'An online desktop edition of Worldbound. Internet and access to the hosted game are required. Sign in using your own invited account. Game updates load automatically. This desktop runtime does not update automatically. If your sign-in provider blocks embedded apps, use Game → Open in browser.'})}]}
+      {label:'Help',submenu:[{label:'About Worldbound',click:()=>dialog.showMessageBox({title:'Worldbound',message:'Worldbound for Windows',detail:'Launch and play — no ChatGPT account or sign-in required. Internet is required for the game and Google Street View. Game updates load automatically. This desktop runtime does not update automatically.'})}]}
     ]));
     createWindow();
   });
