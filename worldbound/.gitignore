@@ -1,0 +1,45 @@
+# Bundled Electron / Chromium Windows runtime
+/Worldbound.exe
+/*.dll
+/chrome_100_percent.pak
+/chrome_200_percent.pak
+/resources.pak
+/icudtl.dat
+/snapshot_blob.bin
+/v8_context_snapshot.bin
+/vk_swiftshader_icd.json
+/version
+/locales/
+
+# Dependencies and generated build output
+node_modules/
+/dist/
+/build/
+/out/
+/release/
+coverage/
+.cache/
+*.tsbuildinfo
+
+# Logs and crash dumps
+*.log
+*.dmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment settings (keep example files)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

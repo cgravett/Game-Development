@@ -1,0 +1,1 @@
+{"name":"worldbound-desktop","productName":"Worldbound","version":"1.0.1","private":true,"description":"Worldbound online desktop edition for Windows","main":"main.cjs","engines":{"electron":"44.5.1"}}

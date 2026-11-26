@@ -1,0 +1,22 @@
+WORLDBOUND — WINDOWS EDITION 1.0.1
+
+1. Right-click the downloaded ZIP and choose Extract All.
+2. Open the extracted Worldbound-Windows folder.
+3. Double-click Worldbound.exe and play. No ChatGPT login required.
+
+Keep all extracted files together; send the whole ZIP to friends.
+Requires Windows 10/11 x64 and internet for the game and Street View.
+No Node.js installation, invitation, or player API key is needed.
+F11 toggles fullscreen. Ctrl+R reconnects to the game.
+
+UPDATES AND DATA
+Game updates load automatically from the public hosted game. The
+desktop runtime has no auto-updater; download a newer package when
+available. Each Windows account has its own saved player profile.
+Street View uses the game owner's Google Maps account and usage limits.
+The game requires its hosted service to remain available.
+
+The package is not publisher-signed. Windows may show an unknown
+publisher warning. No certificate or security settings need changing.
+
+Website: https://worldbound-explorer.grantexec-0223.chatgpt.site
